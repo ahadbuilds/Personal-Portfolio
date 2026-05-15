@@ -54,7 +54,7 @@ A modern, clean, and fully responsive personal portfolio website built to showca
 
 ## 📇 Contact
 
-🔗 GitHub: [@AbdulAhad56](https://github.com/AbdulAhad56)  
+🔗 GitHub: [@AbdulAhad56](https://github.com/ahadbuilds)  
 🌐 Website: [abdulahadportfolio.netlify.app](https://abdulahadportfolio.netlify.app/)
 
 ---
