@@ -1,557 +1,616 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abdul Ahad — Web Developer Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <!-- AOS CSS -->
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-</head>
+  <title>Abdul Ahad | AI/ML Engineer | Data Science & Analytics</title>
+  <meta name="description" content="Abdul Ahad is an AI/ML Engineer and Data Science & Analytics student building data-driven systems, predictive models, intelligent applications, and modern portfolio projects." />
+  <meta name="keywords" content="Abdul Ahad, AI/ML Engineer, Data Science, Data Analytics, Machine Learning, Python, Scikit-learn, TensorFlow, Power BI, UET Lahore, Portfolio" />
+  <meta name="author" content="Abdul Ahad" />
+  <meta name="theme-color" content="#050505" />
+  <meta property="og:title" content="Abdul Ahad | AI/ML Engineer | Data Science & Analytics" />
+  <meta property="og:description" content="AI/ML Engineer focused on Data Science & Analytics, predictive modeling, intelligent applications, and end-to-end data-driven systems." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://abdulahadportfolio.tech/" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
-  <!-- Header & Navigation -->
   <header class="header">
     <nav class="navbar">
-      <a href="index.html" class="logo">Abdul Ahad</a>
+      <a href="#home" class="logo" aria-label="Abdul Ahad home">Abdul Ahad</a>
+
       <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#certifications">Certifications</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="blog/blog.html">Blog</a></li>
       </ul>
-      <div class="theme-toggle">
-        <i class="fas fa-sun toggle-icon"></i>
-        <i class="fas fa-moon toggle-icon"></i>
-      </div>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+
+      <div class="nav-actions">
+        <a class="nav-cta" href="assets/resume/Abdul_Ahad_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
     </nav>
   </header>
 
-  <!-- Main -->
   <main>
-    <!-- Hero Section -->
-    <section id="hero" class="hero-section">
-      <div class="hero-content" data-aos="fade-up">
-        <h1>Hi, I'm Abdul Ahad — Web Developer & AI Integration Enthusiast</h1>
-        <p>
-          Building modern web applications using React, JavaScript, and intelligent AI-powered features that enhance
-          user experience and business workflows.
-        </p>
-        <a href="#contact" class="btn primary-btn" data-aos="zoom-in" data-aos-delay="100">Get In Touch</a>
-      </div>
-    </section>
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-aos="fade-right">
+          <p class="hero-kicker">Computer Science Student • UET Lahore • Open to Internships</p>
+          <h1>AI/ML Engineer <span>&amp;</span> Data Science &amp; Analytics</h1>
+          <p class="hero-text">
+            Building data-driven systems, predictive models, and intelligent applications that transform raw data into clear decisions, useful insights, and practical solutions.
+          </p>
 
-
-    <!-- About Me Section -->
-    <section id="about" class="about-section">
-      <div class="container">
-        <h2 class="section-title" data-aos="flip-up">About Me</h2>
-        <div class="about-content" data-aos="fade-right">
-          <div class="about-image">
-            <img src="assets/images/AbdulAhad.png" loading="lazy" alt="Abdul Ahad Profile Picture" />
-          </div>
-          <div class="about-text" data-aos="fade-left">
-            <p>
-              Hello! I'm <span class="name">Abdul Ahad</span> — a Web Developer and AI Integration Enthusiast
-              passionate about creating modern, responsive, and intelligent digital experiences.
-            </p>
-
-            <p>
-              I build clean, interactive web interfaces using React, JavaScript, HTML, and CSS, while integrating
-              AI-powered features that enhance usability, automate workflows, and deliver smarter user interactions.
-            </p>
-
-            <p>My key areas of expertise include:</p>
-
-            <ul class="skills-list">
-              <li>Modern Web Development (React, JavaScript, HTML, CSS, Bootstrap)</li>
-              <li>Responsive UI/UX Design & Component-Based Architecture</li>
-              <li>AI Integration & Automation (Python, APIs, Intelligent Systems)</li>
-              <li>Data Analysis & Visualization (Pandas, NumPy, Matplotlib, Seaborn)</li>
-            </ul>
-
-            <p>
-              My mission is to build solutions that are fast, user-friendly, and future-ready — combining powerful
-              interfaces with the intelligence of modern AI technologies.
-            </p>
-
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="assets/resume/Abdul_Ahad_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Download Resume</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
           </div>
 
+          <div class="hero-tags" aria-label="Core technologies">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Scikit-learn</span>
+            <span>TensorFlow</span>
+            <span>Power BI</span>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-card" data-aos="zoom-in" data-aos-delay="100">
+              <strong>10+</strong>
+              <span>Projects Built</span>
+            </div>
+            <div class="metric-card" data-aos="zoom-in" data-aos-delay="180">
+              <strong>3</strong>
+              <span>Professional Certificates</span>
+            </div>
+            <div class="metric-card" data-aos="zoom-in" data-aos-delay="260">
+              <strong>2</strong>
+              <span>Primary Focus Areas</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-aos="fade-left">
+          <div class="visual-card">
+            <div class="visual-card__top">
+              <span class="visual-badge"><i class="fa-solid fa-sparkles"></i> Portfolio Snapshot</span>
+              <span class="visual-status">Ready for internships</span>
+            </div>
+
+            <div class="visual-orb">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+
+            <div class="visual-list">
+              <div>
+                <i class="fa-solid fa-brain"></i>
+                <div>
+                  <strong>Machine Learning</strong>
+                  <p>Classification, prediction, and model evaluation</p>
+                </div>
+              </div>
+              <div>
+                <i class="fa-solid fa-database"></i>
+                <div>
+                  <strong>Data Science &amp; Analytics</strong>
+                  <p>EDA, feature engineering, statistics, and BI</p>
+                </div>
+              </div>
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <div>
+                  <strong>Intelligent Applications</strong>
+                  <p>AI-powered tools, dashboards, and workflows</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="code-panel">
+              <div class="code-panel__header">
+                <span></span><span></span><span></span>
+              </div>
+              <pre><code>data → clean → analyze → model → deploy</code></pre>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section">
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div class="stat-card" data-aos="fade-up">
+          <span class="stat-number">10+</span>
+          <span class="stat-label">Portfolio Projects</span>
+        </div>
+        <div class="stat-card" data-aos="fade-up" data-aos-delay="80">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Recognized Certificates</span>
+        </div>
+        <div class="stat-card" data-aos="fade-up" data-aos-delay="160">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Core Domains</span>
+        </div>
+        <div class="stat-card" data-aos="fade-up" data-aos-delay="240">
+          <span class="stat-number">Open</span>
+          <span class="stat-label">For Internships &amp; Collaboration</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-block">
       <div class="container">
-        <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-eyebrow">About</p>
+          <h2>Focused on Data Science, Analytics, and Applied AI</h2>
+          <p class="section-intro">
+            I build practical systems that turn raw data into insight, automation, and measurable value.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card about-copy" data-aos="fade-right">
+            <p>
+              I am Abdul Ahad, a Computer Science student at the University of Engineering &amp; Technology (UET), Lahore, with a strong focus on Artificial Intelligence, Machine Learning, Data Science, and Data Analytics.
+            </p>
+            <p>
+              My work sits at the intersection of data science, machine learning, and software engineering. I build end-to-end solutions that include data cleaning, exploratory analysis, feature engineering, model training, evaluation, dashboards, and deployment-ready interfaces.
+            </p>
+            <p>
+              I enjoy transforming complex datasets into clear decisions and building intelligent applications that solve practical business and academic problems.
+            </p>
+
+            <div class="pill-row">
+              <span>AI/ML</span>
+              <span>Data Science</span>
+              <span>Data Analytics</span>
+              <span>Business Intelligence</span>
+              <span>Predictive Modeling</span>
+            </div>
+          </article>
+
+          <div class="about-side">
+            <article class="glass-card focus-card" data-aos="fade-left">
+              <h3>Core Focus</h3>
+              <ul>
+                <li><i class="fa-solid fa-check"></i> Machine Learning &amp; AI</li>
+                <li><i class="fa-solid fa-check"></i> Data Cleaning, EDA &amp; Feature Engineering</li>
+                <li><i class="fa-solid fa-check"></i> Statistical Analysis &amp; Visualization</li>
+                <li><i class="fa-solid fa-check"></i> Power BI Dashboards &amp; Reporting</li>
+                <li><i class="fa-solid fa-check"></i> Full-Stack + AI Integration</li>
+              </ul>
+            </article>
+
+            <article class="glass-card facts-card" data-aos="fade-left" data-aos-delay="120">
+              <h3>Quick Facts</h3>
+              <div class="facts-grid">
+                <div>
+                  <span>Education</span>
+                  <strong>BSCS, UET Lahore</strong>
+                </div>
+                <div>
+                  <span>Branding</span>
+                  <strong>AI/ML • Data Science</strong>
+                </div>
+                <div>
+                  <span>Availability</span>
+                  <strong>Internships / Junior Roles</strong>
+                </div>
+                <div>
+                  <span>Location</span>
+                  <strong>Sialkot, Punjab, Pakistan</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-block section-alt">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-eyebrow">Skills</p>
+          <h2>Technical Skills</h2>
+          <p class="section-intro">Organized around the work I actually do: analysis, modeling, visualization, and modern application development.</p>
+        </div>
 
         <div class="skills-grid">
-
-          <!-- Web Development Skills -->
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/images/react.webp" alt="React" loading="lazy" />
-            <p>React.js</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 80%"></div>
+          <article class="glass-card skill-card" data-aos="zoom-in">
+            <i class="fa-solid fa-laptop-code skill-icon"></i>
+            <h3>Programming</h3>
+            <div class="chip-cloud">
+              <span>Python</span><span>JavaScript</span><span>C#</span><span>SQL</span>
             </div>
-          </div>
+          </article>
 
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="150">
-            <img src="assets/images/js.webp" alt="JavaScript" loading="lazy" />
-            <p>JavaScript</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 75%"></div>
+          <article class="glass-card skill-card" data-aos="zoom-in" data-aos-delay="80">
+            <i class="fa-solid fa-chart-simple skill-icon"></i>
+            <h3>Data Science</h3>
+            <div class="chip-cloud">
+              <span>Pandas</span><span>NumPy</span><span>EDA</span><span>Feature Engineering</span><span>Statistics</span>
             </div>
-          </div>
+          </article>
 
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
-            <img src="assets/images/html.webp" alt="HTML" loading="lazy" />
-            <p>HTML</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 90%"></div>
+          <article class="glass-card skill-card" data-aos="zoom-in" data-aos-delay="160">
+            <i class="fa-solid fa-robot skill-icon"></i>
+            <h3>Machine Learning</h3>
+            <div class="chip-cloud">
+              <span>Scikit-learn</span><span>TensorFlow</span><span>Keras</span><span>Logistic Regression</span><span>Random Forest</span>
             </div>
-          </div>
+          </article>
 
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="250">
-            <img src="assets/images/css.webp" alt="CSS" loading="lazy" />
-            <p>CSS</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 85%"></div>
+          <article class="glass-card skill-card" data-aos="zoom-in" data-aos-delay="240">
+            <i class="fa-solid fa-chart-column skill-icon"></i>
+            <h3>Analytics &amp; BI</h3>
+            <div class="chip-cloud">
+              <span>Power BI</span><span>Matplotlib</span><span>Seaborn</span><span>Recharts</span><span>Data Visualization</span>
             </div>
-          </div>
+          </article>
 
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
-            <img src="assets/images/bootstrap.webp" alt="Bootstrap" loading="lazy" />
-            <p>Bootstrap</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 80%"></div>
+          <article class="glass-card skill-card" data-aos="zoom-in" data-aos-delay="320">
+            <i class="fa-solid fa-globe skill-icon"></i>
+            <h3>Web Development</h3>
+            <div class="chip-cloud">
+              <span>HTML</span><span>CSS</span><span>Bootstrap</span><span>React</span><span>FastAPI</span>
             </div>
-          </div>
+          </article>
 
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="350">
-            <img src="assets/images/sass.webp" alt="Sass" loading="lazy" />
-            <p>Sass</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 70%"></div>
+          <article class="glass-card skill-card" data-aos="zoom-in" data-aos-delay="400">
+            <i class="fa-solid fa-screwdriver-wrench skill-icon"></i>
+            <h3>Tools &amp; Platforms</h3>
+            <div class="chip-cloud">
+              <span>Git</span><span>GitHub</span><span>VS Code</span><span>Figma</span><span>Postman</span>
             </div>
-          </div>
-
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
-            <img src="assets/images/github.webp" alt="Git & GitHub" loading="lazy" />
-            <p>Git & GitHub</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 80%"></div>
-            </div>
-          </div>
-
-          <!-- AI & Data Science Skills -->
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
-            <img src="assets/images/python.webp" alt="Python" loading="lazy" />
-            <p>Python</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 90%"></div>
-            </div>
-          </div>
-
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
-            <img src="assets/images/pandas.webp" alt="Pandas" loading="lazy" />
-            <p>Pandas</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 85%"></div>
-            </div>
-          </div>
-
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="550">
-            <img src="assets/images/numpy.webp" alt="NumPy" loading="lazy" />
-            <p>NumPy</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 80%"></div>
-            </div>
-          </div>
-
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="600">
-            <img src="assets/images/matplotlib.webp" alt="Matplotlib" loading="lazy" />
-            <p>Matplotlib</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 75%"></div>
-            </div>
-          </div>
-
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="650">
-            <img src="assets/images/seaborn.webp" alt="Seaborn" loading="lazy" />
-            <p>Seaborn</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 75%"></div>
-            </div>
-          </div>
-
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="700">
-            <img src="assets/images/scikit-learn.webp" alt="Scikit-learn" loading="lazy" />
-            <p>Scikit-learn</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 70%"></div>
-            </div>
-          </div>
-
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="750">
-            <img src="assets/images/tensorflow.webp" alt="TensorFlow" loading="lazy" />
-            <p>TensorFlow</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 65%"></div>
-            </div>
-          </div>
-
-          <div class="skill-item" data-aos="zoom-in" data-aos-delay="800">
-            <img src="assets/images/ai-integration.webp" alt="AI Integration" loading="lazy" />
-            <p>AI Integration</p>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 75%"></div>
-            </div>
-          </div>
-
+          </article>
         </div>
-
       </div>
     </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications-section">
+    <section id="certifications" class="section-block">
       <div class="container">
-        <h2 class="section-title" data-aos="fade-up">Certifications</h2>
-        <div class="certifications-grid">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-eyebrow">Credentials</p>
+          <h2>Certifications</h2>
+          <p class="section-intro">External proof of learning in data analytics, business intelligence, and generative AI.</p>
+        </div>
 
-          <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://www.credly.com/badges/cd3afbcd-fbc8-4f33-abb4-87fa5dcb27c6/public_url" target="_blank">
-              <img src="assets/images/google-ada.webp" alt="Google Advanced Data Analytics Certificate"
-                loading="lazy" />
-              <h3>Google Advanced Data Analytics Certificate</h3>
-              <p>Issued by Coursera, 2025</p>
-              <p class="verify-link">Click to Verify</p>
-            </a>
-          </div>
+        <div class="cert-grid">
+          <a class="cert-card glass-card" href="https://www.credly.com/badges/cd3afbcd-fbc8-4f33-abb4-87fa5dcb27c6/public_url" target="_blank" rel="noopener noreferrer" data-aos="fade-up">
+            <img src="assets/images/google-ada.webp" alt="Google Advanced Data Analytics" loading="lazy" />
+            <h3>Google Advanced Data Analytics</h3>
+            <p>Coursera • 2025</p>
+            <span class="cert-link">Verify Credential</span>
+          </a>
 
-          <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
-            <a href="https://credsverse.com/credentials/6013c7ce-ed8b-4122-a26a-7e4bd732c912" target="_blank">
-              <img src="assets/images/ulefusa.webp" alt="Generative AI Application Developer Certificate"
-                loading="lazy" />
-              <h3>Generative AI Application Developer Certificate</h3>
-              <p>Pak Angels (Silicon Valley, USA) / ULEFUSA (2025)</p>
-              <p class="verify-link">Click to Verify</p>
-            </a>
-          </div>
+          <a class="cert-card glass-card" href="https://www.credly.com/badges/7d1df055-d6ab-47ab-bcd0-64c4801774cf/public_url" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/images/google-bi.webp" alt="Google Business Intelligence" loading="lazy" />
+            <h3>Google Business Intelligence</h3>
+            <p>Coursera • 2025</p>
+            <span class="cert-link">Verify Credential</span>
+          </a>
 
-          <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
-            <a href="https://www.credly.com/badges/7d1df055-d6ab-47ab-bcd0-64c4801774cf/public_url" target="_blank">
-              <img src="assets/images/google-bi.webp" alt="Google Business Intelligence Certificate" loading="lazy" />
-              <h3>Google Business Intelligence Certificate</h3>
-              <p>Issued by Coursera, 2025</p>
-              <p class="verify-link">Click to Verify</p>
-            </a>
+          <a class="cert-card glass-card" href="https://credsverse.com/credentials/6013c7ce-ed8b-4122-a26a-7e4bd732c912" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/images/ulefusa.webp" alt="Generative AI Application Developer" loading="lazy" />
+            <h3>Generative AI Application Developer</h3>
+            <p>Pak Angels / ULEFUSA • 2025</p>
+            <span class="cert-link">Verify Credential</span>
+          </a>
+
+          <div class="cert-card glass-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+            <h3>Hackathon Participation</h3>
+            <p>Google Cloud ADK Hackathon</p>
+            <span class="cert-link">Project Experience</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
+    <section id="services" class="section-block section-alt">
       <div class="container">
-        <h2 class="section-title" data-aos="zoom-in">What I Offer</h2>
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-eyebrow">Services</p>
+          <h2>What I Offer</h2>
+          <p class="section-intro">A compact set of services aligned with AI, analytics, and production-ready application development.</p>
+        </div>
+
         <div class="services-grid">
+          <article class="glass-card service-card" data-aos="fade-up">
+            <i class="fa-solid fa-brain service-icon"></i>
+            <h3>Machine Learning Solutions</h3>
+            <p>Predictive models, classification systems, and data-driven intelligence using Python, Scikit-learn, and TensorFlow.</p>
+          </article>
 
-          <!-- Web Development -->
-          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-            <i class="fas fa-laptop-code service-icon"></i>
-            <h3>Web Development (React & JavaScript)</h3>
-            <p>
-              Building fast, responsive, and modern websites using React, JavaScript, HTML, and CSS. I focus on clean
-              UI,
-              reusable components, and smooth user experiences.
-            </p>
-          </div>
+          <article class="glass-card service-card" data-aos="fade-up" data-aos-delay="80">
+            <i class="fa-solid fa-database service-icon"></i>
+            <h3>Data Analytics</h3>
+            <p>Data cleaning, EDA, feature engineering, and analytics workflows that turn raw datasets into useful insights.</p>
+          </article>
 
-          <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-            <i class="fas fa-mobile-alt service-icon"></i>
-            <h3>Responsive UI/UX Design</h3>
-            <p>
-              Designing visually appealing, mobile-first interfaces with intuitive layouts, animations, and
-              user-centered design principles.
-            </p>
-          </div>
+          <article class="glass-card service-card" data-aos="fade-up" data-aos-delay="160">
+            <i class="fa-solid fa-chart-pie service-icon"></i>
+            <h3>Business Intelligence</h3>
+            <p>Interactive dashboards and visual reporting for trends, KPIs, and decision support with Power BI.</p>
+          </article>
 
-          <div class="service-card" data-aos="fade-up" data-aos-delay="300">
-            <i class="fas fa-globe service-icon"></i>
-            <h3>Business & Portfolio Websites</h3>
-            <p>
-              Developing professional websites for brands, businesses, and personal portfolios — optimized for speed,
-              SEO, and performance.
-            </p>
-          </div>
+          <article class="glass-card service-card" data-aos="fade-up" data-aos-delay="240">
+            <i class="fa-solid fa-wand-magic-sparkles service-icon"></i>
+            <h3>AI-Powered Applications</h3>
+            <p>Intelligent tools and workflows that integrate AI, automation, and practical problem solving.</p>
+          </article>
 
-          <!-- AI & Automation -->
-          <div class="service-card" data-aos="fade-up" data-aos-delay="400">
-            <i class="fas fa-brain service-icon"></i>
-            <h3>AI Integration for Web & Apps</h3>
-            <p>
-              Enhancing websites and applications with AI features including chatbots, automation scripts, personalized
-              insights,
-              and intelligent user interactions.
-            </p>
-          </div>
+          <article class="glass-card service-card" data-aos="fade-up" data-aos-delay="320">
+            <i class="fa-solid fa-code service-icon"></i>
+            <h3>Full-Stack Development</h3>
+            <p>Responsive websites and product pages built with HTML, CSS, JavaScript, React, and API-driven interfaces.</p>
+          </article>
 
-          <div class="service-card" data-aos="fade-up" data-aos-delay="500">
-            <i class="fas fa-chart-line service-icon"></i>
-            <h3>Interactive Dashboards</h3>
-            <p>
-              Creating dashboards that visualize metrics, KPIs, and trends using JavaScript libraries, clean layouts,
-              and responsive components.
-            </p>
-          </div>
-
-          <!-- Data & AI -->
-          <div class="service-card" data-aos="fade-up" data-aos-delay="600">
-            <i class="fas fa-database service-icon"></i>
-            <h3>Data Analysis & Automation</h3>
-            <p>
-              Using Python, Pandas, and automation tools to clean data, detect patterns, and build scripts that reduce
-              manual workload.
-            </p>
-          </div>
-
-          <!-- Deployment & Support -->
-          <div class="service-card" data-aos="fade-up" data-aos-delay="700">
-            <i class="fas fa-cloud-upload-alt service-icon"></i>
-            <h3>Deployment & Hosting</h3>
-            <p>
-              Deploying web applications on platforms like Netlify, Vercel, and cloud hosting services — ensuring
-              scalability, version control,
-              and smooth performance.
-            </p>
-          </div>
-
-          <div class="service-card" data-aos="fade-up" data-aos-delay="800">
-            <i class="fas fa-tools service-icon"></i>
-            <h3>Support & Maintenance</h3>
-            <p>
-              Providing updates, bug fixes, performance optimization, and long-term technical support for websites and
-              applications.
-            </p>
-          </div>
-
-
+          <article class="glass-card service-card" data-aos="fade-up" data-aos-delay="400">
+            <i class="fa-solid fa-server service-icon"></i>
+            <h3>Database &amp; Desktop Systems</h3>
+            <p>Structured CRUD applications, database-backed systems, and desktop tools with clean architecture.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
+    <section id="projects" class="section-block">
       <div class="container">
-        <h2 class="section-title" data-aos="fade-down">My Projects</h2>
-        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="50">
-          Showcasing modern website builds, brand-focused designs, and interactive web applications developed with
-          clean, responsive, and optimized code.
-        </p>
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-eyebrow">Projects</p>
+          <h2>Featured Work</h2>
+          <p class="section-intro">A curated selection of my strongest AI, analytics, blockchain, and web development projects.</p>
+        </div>
 
         <div class="projects-grid">
-          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/images/ATHLEIMAX.webp" loading="lazy" alt="ATHLEIMAX Project 1" />
-            <h3>ATHLEIMAX</h3>
-            <p>
-              Developed a responsive sportswear website with dynamic product displays, optimized performance, and a
-              clean brand-focused UI.
-            </p>
-
-            <div class="project-links">
-              <a href="https://athleimax.com/" target="_blank" class="btn primary-btn">
-                Live Demo <i class="fas fa-external-link-alt"></i>
-              </a>
+          <article class="project-card glass-card" data-aos="fade-up">
+            <img src="assets/images/SMARTMINER.webp" alt="SMARTMINER" loading="lazy" />
+            <div class="project-body">
+              <div class="project-top">
+                <h3>SMARTMINER</h3>
+                <span>AI + Data Mining</span>
+              </div>
+              <p>AI-powered data mining and predictive analysis platform featuring preprocessing, PCA, clustering, association rule mining, machine learning, deep learning, and interactive dashboards.</p>
+              <div class="project-tags">
+                <span>Python</span><span>ML</span><span>Analytics</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ahadbuilds/smartminer-ai" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View Code</a>
+                <a href="#" class="btn btn-primary">Live Demo</a>
+              </div>
             </div>
+          </article>
+
+          <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="80">
+            <img src="assets/images/CardioPulseAI.webp" alt="CardioPulse-AI" loading="lazy" />
+            <div class="project-body">
+              <div class="project-top">
+                <h3>CardioPulse-AI</h3>
+                <span>Healthcare ML</span>
+              </div>
+              <p>Heart disease prediction system using exploratory data analysis, feature engineering, statistical testing, machine learning models, and Power BI visual analytics.</p>
+              <div class="project-tags">
+                <span>Python</span><span>Scikit-learn</span><span>Power BI</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ahadbuilds/CardioPulse-AI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View Code</a>
+                <a href="#" class="btn btn-primary">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="160">
+            <img src="assets/images/AirPollution.webp" alt="Air Pollution Detection System" loading="lazy" />
+            <div class="project-body">
+              <div class="project-top">
+                <h3>Air Pollution Detection</h3>
+                <span>Environmental Analytics</span>
+              </div>
+              <p>Global air quality analysis system for monitoring pollution patterns and AQI insights using data exploration and machine learning techniques.</p>
+              <div class="project-tags">
+                <span>Data Science</span><span>Visualization</span><span>AI</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ahadbuilds/Air_Pollution_Detection_System" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View Code</a>
+                <a href="#" class="btn btn-primary">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="240">
+            <img src="assets/images/Blockchain.webp" alt="Blockchain Prescription Verification System" loading="lazy" />
+            <div class="project-body">
+              <div class="project-top">
+                <h3>Blockchain Prescription Verification</h3>
+                <span>Blockchain + Security</span>
+              </div>
+              <p>Ethereum-based prescription verification system built with Solidity, MetaMask, and smart contracts to ensure authenticity and secure access.</p>
+              <div class="project-tags">
+                <span>Blockchain</span><span>Solidity</span><span>Security</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ahadbuilds/Blockchain_Based_Prescription_Verification_System" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View Code</a>
+                <a href="#" class="btn btn-primary">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="320">
+            <img src="assets/images/contact-book.webp" alt="Contact Book Management System" loading="lazy" />
+            <div class="project-body">
+              <div class="project-top">
+                <h3>Contact Book Management</h3>
+                <span>Desktop App</span>
+              </div>
+              <p>Windows Forms contact management system with Oracle database integration, authentication, profile management, group organization, and CRUD operations.</p>
+              <div class="project-tags">
+                <span>C#</span><span>Oracle</span><span>WinForms</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ahadbuilds/Contact-Book-WinForms" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View Code</a>
+                <a href="#" class="btn btn-primary">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="400">
+            <img src="assets/images/ATHLEIMAX.webp" alt="ATHLEIMAX" loading="lazy" />
+            <div class="project-body">
+              <div class="project-top">
+                <h3>ATHLEIMAX</h3>
+                <span>Commercial Website</span>
+              </div>
+              <p>Responsive sportswear manufacturer website with clean UI, product categorization, and SEO-friendly structure.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://athleimax.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-block section-alt">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-eyebrow">Experience</p>
+          <h2>Professional Experience</h2>
+          <p class="section-intro">Practical experience across front-end development, AI projects, and applied solutions.</p>
+        </div>
+
+        <div class="timeline-grid">
+          <article class="glass-card timeline-card" data-aos="fade-right">
+            <span class="timeline-dot"></span>
+            <p class="timeline-date">2024 – Present</p>
+            <h3>Freelance Web Developer &amp; Front-End Builder</h3>
+            <p>Building responsive business websites, portfolio sites, and branded web experiences with maintainable UI and SEO-friendly structure.</p>
+          </article>
+
+          <article class="glass-card timeline-card" data-aos="fade-left">
+            <span class="timeline-dot"></span>
+            <p class="timeline-date">2025 – Present</p>
+            <h3>AI / Data Projects Developer</h3>
+            <p>Developing machine learning, predictive analytics, and data visualization projects designed to solve practical real-world problems.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-block">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-eyebrow">Education</p>
+          <h2>Academic Background</h2>
+        </div>
+
+        <div class="education-card glass-card" data-aos="zoom-in">
+          <div>
+            <span class="edu-badge">B.Sc CS</span>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>University of Engineering &amp; Technology (UET), Lahore</p>
           </div>
-
-          <div class="project-card" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/images/amx-farrier-tools.webp" loading="lazy" alt="AMX Farrier Tools Project 2" />
-            <h3>AMX Farrier Tools</h3>
-            <p>
-              Built a responsive React website for a farrier tools manufacturer with structured product categories and
-              optimized UI.
-            </p>
-
-            <div class="project-links">
-              <a href="https://farrier.athleimax.com/" target="_blank" class="btn primary-btn">
-                Live Demo <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="project-card" data-aos="fade-up" data-aos-delay="300">
-            <img src="assets/images/Icedge.webp" loading="lazy" alt="Icedge Sportswear Project 3" />
-            <h3>Icedge Sportswear</h3>
-            <p>
-              Developed a responsive sportswear website with product collections and smooth navigation using HTML, CSS,
-              JavaScript, and Bootstrap.
-            </p>
-            <div class="project-links">
-              <a href="https://icedgesportswear.com/" target="_blank" class="btn primary-btn">
-                Live Demo <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="project-card" data-aos="fade-up" data-aos-delay="400">
-            <img src="assets/images/portfolio.webp" loading="lazy" alt="Portfolio Website Project 4" />
-            <h3>Personal Portfolio Website</h3>
-            <p>
-              Personal portfolio built with HTML, Sass, and JavaScript, featuring responsive design and deployment via
-              Netlify
-            </p>
-            <div class="project-links">
-              <a href="https://abdulahadportfolio.netlify.app/" target="_blank" class="btn primary-btn">Live Demo <i
-                  class="fas fa-external-link-alt"></i></a>
-              <a href="https://github.com/ahadbuilds/Personal-Portfolio.git" target="_blank" class="btn secondary-btn">
-                View Code <i class="fas fa-code"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="project-card" data-aos="fade-up" data-aos-delay="500">
-            <img src="assets/images/Blockchain.webp" loading="lazy"
-              alt="Blockchain Prescription Verification Project 5" />
-            <h3>Blockchain-Based Prescription Verification System</h3>
-            <p>
-              Built a blockchain-based system to verify medical prescriptions, enabling tamper-proof validation and
-              reducing prescription fraud.
-            </p>
-            <div class="project-links">
-              <a href="https://github.com/ahadbuilds/Blockchain_Based_Prescription_Verification_System" target="_blank"
-                class="btn primary-btn">
-                Live Demo <i class="fas fa-external-link-alt"></i>
-              </a>
-              <a href="https://github.com/ahadbuilds/Blockchain_Based_Prescription_Verification_System.git"
-                target="_blank" class="btn secondary-btn">
-                View Code <i class="fas fa-code"></i>
-              </a>
-            </div>
-          </div>
-
-
-          <div class="project-card" data-aos="fade-up" data-aos-delay="600">
-            <img src="assets/images/RCET.webp" loading="lazy" alt="Project 6" />
-            <h3>UET RCET Website</h3>
-            <p>
-              Developed a desktop-responsive clone of the UET RCET website using HTML, CSS, and JavaScript with
-              structured navigation and department sections.
-            </p>
-            <div class="project-links">
-              <a href="https://ahadbuilds.github.io/UET-RCET-Website/" target="_blank" class="btn primary-btn">Live
-                Demo <i class="fas fa-external-link-alt"></i></a>
-              <a href="https://github.com/ahadbuilds/UET-RCET-Website.git" target="_blank" class="btn secondary-btn">
-                View Code <i class="fas fa-code"></i>
-              </a>
-            </div>
+          <div class="edu-meta">
+            <span><i class="fa-solid fa-calendar"></i> Expected Graduation: 2027</span>
+            <span><i class="fa-solid fa-location-dot"></i> Lahore, Punjab, Pakistan</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section" data-aos="flip-down">
+    <section id="contact" class="section-block section-alt">
       <div class="container">
-        <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
-        <div class="contact-content">
-          <form id="contact-form" class="contact-form" method="POST" name="contact" data-netlify="true"
-            netlify-honeypot="bot-field">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-eyebrow">Contact</p>
+          <h2>Let's Build Something Useful</h2>
+          <p class="section-intro">For internships, collaborations, freelance work, or project discussions.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form id="contact-form" class="glass-card contact-form" method="POST" name="contact" data-netlify="true" netlify-honeypot="bot-field" data-aos="fade-right">
             <input type="hidden" name="form-name" value="contact" />
 
-            <p hidden>
-              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            <p class="sr-only">
+              <label>Do not fill this out if you're human: <input name="bot-field" /></label>
             </p>
 
             <div class="form-group">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required />
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
               <div class="error-message" id="name-error"></div>
             </div>
 
             <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required />
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
               <div class="error-message" id="email-error"></div>
             </div>
 
             <div class="form-group">
-              <label for="message">Message:</label>
-              <textarea id="message" name="message" rows="6" required></textarea>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or opportunity" required></textarea>
               <div class="error-message" id="message-error"></div>
             </div>
 
-            <button type="submit" class="btn primary-btn">
-              Send Message
-            </button>
+            <button type="submit" class="btn btn-primary">Send Message</button>
           </form>
 
-          <div class="contact-info" data-aos="fade-left">
-            <h3>Connect with me:</h3>
+          <aside class="glass-card contact-info" data-aos="fade-left">
+            <h3>Connect</h3>
             <ul>
-              <li>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahad38390@gmail.com" target="_blank">
-                  <i class="fas fa-envelope"></i> Email/Abdul Ahad
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/abdulahadbuilds" target="_blank"><i class="fab fa-linkedin"></i>
-                  LinkedIn/Abdul Ahad</a>
-              </li>
-              <li>
-                <a href="https://github.com/ahadbuilds" target="_blank"><i class="fab fa-github"></i> GitHub/Abdul
-                  Ahad</a>
-              </li>
-              <li>
-                <a href="https://wa.me/923182459653" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp/Abdul
-                  Ahad</a>
-              </li>
+              <li><a href="mailto:ahad38390@gmail.com"><i class="fa-solid fa-envelope"></i> ahad38390@gmail.com</a></li>
+              <li><a href="https://www.linkedin.com/in/abdulahadbuilds/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+              <li><a href="https://github.com/ahadbuilds" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a></li>
+              <li><a href="https://abdulahadportfolio.tech" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> Portfolio</a></li>
             </ul>
-          </div>
+
+            <div class="contact-note">
+              <p>Preferred focus: AI/ML, Data Science &amp; Analytics, and production-ready intelligent applications.</p>
+            </div>
+          </aside>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- Scroll-to-top Button -->
-  <button id="scroll-to-top" class="scroll-to-top-btn" title="Go to top">
-    <i class="fas fa-arrow-up"></i>
+  <button id="scroll-to-top" class="scroll-to-top-btn" type="button" title="Go to top" aria-label="Go to top">
+    <i class="fa-solid fa-arrow-up"></i>
   </button>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container footer-content">
-      <p>&copy; 2025 Abdul Ahad | All rights reserved.</p>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Abdul Ahad • AI/ML Engineer | Data Science &amp; Analytics</p>
     </div>
   </footer>
 
-
-  <!-- AOS JavaScript -->
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init({
-      duration: 1000, // animation duration in milliseconds
-      once: true, // whether animation should happen only once
+      duration: 850,
+      once: true,
+      offset: 70
     });
   </script>
-
-  <!-- Script -->
   <script src="script.js"></script>
 </body>
-
 </html>
