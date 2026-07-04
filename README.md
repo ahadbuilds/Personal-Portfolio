@@ -1,73 +1,245 @@
-# 👨‍💻 Personal Portfolio Website
+# 👨‍💻 Abdul Ahad Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://abdulahadportfolio.netlify.app/)
-[![Made with HTML, CSS, JS](https://img.shields.io/badge/Made%20with-HTML%2C%20CSS%2C%20JS-orange)](#)
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<p align="center">
+  <strong>Modern AI/ML & Data Science Portfolio Website</strong>
+</p>
 
-A modern, clean, and fully responsive personal portfolio website built to showcase my skills, experience, and projects as a front-end web developer. This site also serves as my digital identity and resume on the web.
+<p align="center">
+A responsive portfolio showcasing AI applications, machine learning projects, data science work, analytics dashboards, and modern web development.
+</p>
 
-## 🌐 Live Demo
+<p align="center">
 
-🔗 [View Portfolio Online](https://abdulahadportfolio.netlify.app/)
+[![Website](https://img.shields.io/badge/Live-ahadbuilds.tech-2563EB?style=for-the-badge)](https://ahadbuilds.tech)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)](#)
 
-## 📷 Preview
-
-<!-- If you have a screenshot -->
-![Portfolio Preview](assets/preview.png)
-
----
-
-## 📁 Folder Structure
-
-📦 root
-┣ 📂 assets/
-┃ ┗ 📜 images, icons, logo
-┣ 📜 index.html
-┣ 📜 style.css
-┣ 📜 script.js
-┣ 📜 README.md
-┗ 📜 LICENSE
-
+</p>
 
 ---
 
-## 🚀 Features
+## 🌐 Live Website
 
-- ✨ Clean, modern design with smooth animations
-- 💻 Fully responsive on all screen sizes
-- 🌗 Light/Dark mode toggle
-- 📂 Featured projects with live links
-- 📬 Functional contact form
-- 📜 SEO optimized with meta tags
+### https://ahadbuilds.tech
 
 ---
 
-## 🛠️ Built With
+# About
 
-- HTML5 – Semantic markup
-- CSS3 – Flexbox, Grid, Transitions
-- JavaScript – DOM manipulation, toggle functionality
-- [Font Awesome](https://fontawesome.com/) – Icons
-- [Netlify](https://www.netlify.com/) – Hosting
+This repository contains the source code for my personal portfolio website.
 
----
+The portfolio highlights my work in:
 
-## 📇 Contact
+- Artificial Intelligence
+- Machine Learning
+- Data Science
+- Data Analytics
+- Full-Stack AI Applications
+- Modern Web Development
 
-🔗 GitHub: [@AbdulAhad56](https://github.com/ahadbuilds)  
-🌐 Website: [abdulahadportfolio.netlify.app](https://abdulahadportfolio.netlify.app/)
-
----
-
-## 📄 License
-
-This project is open-source and available under the MIT License. Feel free to use and modify it as inspiration for your own site.
+The website is designed with a strong emphasis on performance, responsiveness, accessibility, clean UI, and SEO while presenting my projects, technical skills, certifications, and professional experience.
 
 ---
 
-## 🙋‍♂️ Acknowledgements
+# Features
 
-- Inspired by modern portfolio UI trends
-- Thanks to all the open-source tools and libraries used
+- Modern responsive design
+- Smooth animations
+- Mobile-first layout
+- AI/ML focused portfolio
+- Featured project showcase
+- Certifications section
+- Professional experience timeline
+- Skills categorized by domain
+- Resume download
+- Contact form
+- SEO optimized
+- Fast loading
+- Cross-browser compatibility
 
 ---
+
+# Tech Stack
+
+## Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Libraries
+
+- Font Awesome
+- AOS Animations
+- Typed.js
+- VanillaTilt.js
+
+## Hosting
+
+- Netlify
+
+---
+
+# Website Sections
+
+- Home
+- About
+- Skills
+- Certifications
+- Projects
+- Experience
+- Contact
+
+---
+
+# Featured Projects
+
+## SMARTMINER
+
+AI-powered Data Mining & Predictive Analytics Platform featuring preprocessing, clustering, machine learning, deep learning, dashboards, and REST APIs.
+
+**Technologies**
+
+- Python
+- TensorFlow
+- Scikit-learn
+- FastAPI
+- React
+
+---
+
+## CardioPulse-AI
+
+Heart disease prediction platform using machine learning, EDA, feature engineering, statistical analysis, and interactive dashboards.
+
+---
+
+## Air Pollution Detection System
+
+Environmental analytics platform for monitoring global air quality using machine learning and visualization.
+
+---
+
+## Blockchain Prescription Verification
+
+Blockchain-based healthcare application using Ethereum smart contracts for secure prescription verification.
+
+---
+
+## ATHLEIMAX
+
+Commercial sportswear manufacturer website built with responsive design, product management, and SEO optimization.
+
+---
+
+# Folder Structure
+
+```text
+Portfolio/
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── preview.png
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── LICENSE
+```
+
+---
+
+# Run Locally
+
+Clone the repository
+
+```bash
+git clone https://github.com/ahadbuilds/portfolio.git
+```
+
+Open the project
+
+```bash
+cd portfolio
+```
+
+Launch
+
+```bash
+Open index.html
+```
+
+or use
+
+```bash
+Live Server (VS Code)
+```
+
+---
+
+# Customization
+
+The portfolio can easily be customized by updating:
+
+- Personal information
+- Skills
+- Experience
+- Projects
+- Certifications
+- Resume
+- Theme colors
+- Images
+- Social links
+
+---
+
+# Performance
+
+- Responsive Design
+- SEO Optimized
+- Semantic HTML
+- Lightweight Assets
+- Fast Load Times
+- Accessible Components
+
+---
+
+# Connect
+
+<p align="center">
+
+<a href="https://ahadbuilds.tech">
+<img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white">
+</a>
+
+<a href="https://github.com/ahadbuilds">
+<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white">
+</a>
+
+<a href="https://linkedin.com/in/abdulahadbuilds">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white">
+</a>
+
+<a href="mailto:ahad38390@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white">
+</a>
+
+</p>
+
+---
+
+# License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<p align="center">
+
+Made with ❤️ by <strong>Abdul Ahad</strong>
+
+</p>
